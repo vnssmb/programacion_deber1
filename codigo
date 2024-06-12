@@ -102,7 +102,7 @@ public class Main extends Application {
                     secondScene.getStylesheets().add(cssPath);
                 }
                 secondStage.setScene(secondScene);
-                secondStage.setTitle("Selección");
+                secondStage.setTitle("MUESTRA");
                 secondStage.show();
             });
 
@@ -123,7 +123,7 @@ public class Main extends Application {
                 scene.getStylesheets().add(cssPath);
             }
             primaryStage.setScene(scene);
-            primaryStage.setTitle("Seleccionar Fecha y Color");
+            primaryStage.setTitle("DEBER");
             primaryStage.show();
 
         } catch (Exception e) {
